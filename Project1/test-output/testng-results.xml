@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="23" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-19T01:20:37 GMT-04:00" name="Project1TestSuite" finished-at="2025-09-19T01:22:23 GMT-04:00" duration-ms="105913">
+    <groups>
+    </groups>
+    <test started-at="2025-09-19T01:20:37 GMT-04:00" name="SignUpTests" finished-at="2025-09-19T01:20:50 GMT-04:00" duration-ms="13283">
+      <class name="tests.SignUpTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:37 GMT-04:00" name="setUp" finished-at="2025-09-19T01:20:40 GMT-04:00" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyFields()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:40 GMT-04:00" name="verifyEmptyFields" finished-at="2025-09-19T01:20:40 GMT-04:00" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:40 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:20:40 GMT-04:00" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:40 GMT-04:00" name="setUp" finished-at="2025-09-19T01:20:42 GMT-04:00" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyExistingEmail()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:42 GMT-04:00" name="verifyExistingEmail" finished-at="2025-09-19T01:20:44 GMT-04:00" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:44 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:20:44 GMT-04:00" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:44 GMT-04:00" name="setUp" finished-at="2025-09-19T01:20:46 GMT-04:00" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidEmailFormat()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:46 GMT-04:00" name="verifyInvalidEmailFormat" finished-at="2025-09-19T01:20:47 GMT-04:00" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:47 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:20:47 GMT-04:00" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:47 GMT-04:00" name="setUp" finished-at="2025-09-19T01:20:49 GMT-04:00" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidSignUp()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:49 GMT-04:00" name="verifyValidSignUp" finished-at="2025-09-19T01:20:50 GMT-04:00" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTests@41d477ed]" started-at="2025-09-19T01:20:50 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:20:50 GMT-04:00" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignUpTests -->
+    </test> <!-- SignUpTests -->
+    <test started-at="2025-09-19T01:20:50 GMT-04:00" name="LoginTests" finished-at="2025-09-19T01:21:02 GMT-04:00" duration-ms="11575">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:50 GMT-04:00" name="setUp" finished-at="2025-09-19T01:20:52 GMT-04:00" duration-ms="1647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyFields()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:52 GMT-04:00" name="verifyEmptyFields" finished-at="2025-09-19T01:20:53 GMT-04:00" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:53 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:20:53 GMT-04:00" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:53 GMT-04:00" name="setUp" finished-at="2025-09-19T01:20:55 GMT-04:00" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidEmailFormat()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:55 GMT-04:00" name="verifyInvalidEmailFormat" finished-at="2025-09-19T01:20:56 GMT-04:00" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:56 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:20:56 GMT-04:00" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:56 GMT-04:00" name="setUp" finished-at="2025-09-19T01:20:58 GMT-04:00" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidPassword()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:58 GMT-04:00" name="verifyInvalidPassword" finished-at="2025-09-19T01:20:59 GMT-04:00" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:59 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:20:59 GMT-04:00" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:20:59 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:01 GMT-04:00" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:21:01 GMT-04:00" name="verifyValidLogin" finished-at="2025-09-19T01:21:02 GMT-04:00" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6743e411]" started-at="2025-09-19T01:21:02 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:02 GMT-04:00" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- LoginTests -->
+    <test started-at="2025-09-19T01:21:02 GMT-04:00" name="SessionTests" finished-at="2025-09-19T01:21:26 GMT-04:00" duration-ms="23678">
+      <class name="tests.SessionTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:02 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:04 GMT-04:00" duration-ms="1680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCannotAccessContactListAfterLogout()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:04 GMT-04:00" name="verifyCannotAccessContactListAfterLogout" finished-at="2025-09-19T01:21:10 GMT-04:00" duration-ms="6531" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()='Log In:'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50776/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0070e558768a12e2a3aa4c7d7c65aa25]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()='Log In:'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50776/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0070e558768a12e2a3aa4c7d7c65aa25
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.ContactListPage.isLoginHeaderPresent(ContactListPage.java:74)
+at tests.SessionTests.verifyCannotAccessContactListAfterLogout(SessionTests.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCannotAccessContactListAfterLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:10 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:11 GMT-04:00" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:11 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:13 GMT-04:00" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginRequiredForContactList()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:13 GMT-04:00" name="verifyLoginRequiredForContactList" finished-at="2025-09-19T01:21:13 GMT-04:00" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginRequiredForContactList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:13 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:14 GMT-04:00" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:14 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:21 GMT-04:00" duration-ms="6957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginStateOnRefresh()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:21 GMT-04:00" name="verifyLoginStateOnRefresh" finished-at="2025-09-19T01:21:22 GMT-04:00" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginStateOnRefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:22 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:22 GMT-04:00" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:22 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:24 GMT-04:00" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogout()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:24 GMT-04:00" name="verifyLogout" finished-at="2025-09-19T01:21:25 GMT-04:00" duration-ms="1834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SessionTests@5bda8e08]" started-at="2025-09-19T01:21:25 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:26 GMT-04:00" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SessionTests -->
+    </test> <!-- SessionTests -->
+    <test started-at="2025-09-19T01:21:26 GMT-04:00" name="AddEditDeleteContactTests" finished-at="2025-09-19T01:22:11 GMT-04:00" duration-ms="44751">
+      <class name="tests.AddEdidDeleteContactTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:26 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:29 GMT-04:00" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddContact()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:29 GMT-04:00" name="verifyAddContact" finished-at="2025-09-19T01:21:31 GMT-04:00" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:31 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:31 GMT-04:00" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:31 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:34 GMT-04:00" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddContactWithMissingRequiredFields()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:34 GMT-04:00" name="verifyAddContactWithMissingRequiredFields" finished-at="2025-09-19T01:21:36 GMT-04:00" duration-ms="1843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddContactWithMissingRequiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:36 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:36 GMT-04:00" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:36 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:39 GMT-04:00" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddingDuplicateContactDetails()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:39 GMT-04:00" name="verifyAddingDuplicateContactDetails" finished-at="2025-09-19T01:21:41 GMT-04:00" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingDuplicateContactDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:41 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:41 GMT-04:00" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:41 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:44 GMT-04:00" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCancellingEdit()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:44 GMT-04:00" name="verifyCancellingEdit" finished-at="2025-09-19T01:21:46 GMT-04:00" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancellingEdit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:46 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:46 GMT-04:00" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:46 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:49 GMT-04:00" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDeleteContact()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:49 GMT-04:00" name="verifyDeleteContact" finished-at="2025-09-19T01:21:52 GMT-04:00" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:52 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:52 GMT-04:00" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:52 GMT-04:00" name="setUp" finished-at="2025-09-19T01:21:55 GMT-04:00" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEditContact()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:55 GMT-04:00" name="verifyEditContact" finished-at="2025-09-19T01:21:57 GMT-04:00" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:57 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:21:57 GMT-04:00" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:21:57 GMT-04:00" name="setUp" finished-at="2025-09-19T01:22:00 GMT-04:00" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEditValidation()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:22:00 GMT-04:00" name="verifyEditValidation" finished-at="2025-09-19T01:22:01 GMT-04:00" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:22:01 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:22:01 GMT-04:00" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:22:01 GMT-04:00" name="setUp" finished-at="2025-09-19T01:22:04 GMT-04:00" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFormResetsAfterContactAdded()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:22:04 GMT-04:00" name="verifyFormResetsAfterContactAdded" finished-at="2025-09-19T01:22:06 GMT-04:00" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormResetsAfterContactAdded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:22:06 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:22:06 GMT-04:00" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:22:06 GMT-04:00" name="setUp" finished-at="2025-09-19T01:22:09 GMT-04:00" duration-ms="2724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOnlyNumericInputInPhoneField()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:22:09 GMT-04:00" name="verifyOnlyNumericInputInPhoneField" finished-at="2025-09-19T01:22:10 GMT-04:00" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnlyNumericInputInPhoneField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddEdidDeleteContactTests@1a677343]" started-at="2025-09-19T01:22:10 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:22:11 GMT-04:00" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddEdidDeleteContactTests -->
+    </test> <!-- AddEditDeleteContactTests -->
+    <test started-at="2025-09-19T01:22:11 GMT-04:00" name="ContactUIValidationTests" finished-at="2025-09-19T01:22:23 GMT-04:00" duration-ms="12037">
+      <class name="tests.ContactUIValidationTests">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:20:36 GMT-04:00" name="setupExtentReports" finished-at="2025-09-19T01:20:37 GMT-04:00" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:11 GMT-04:00" name="setUp" finished-at="2025-09-19T01:22:14 GMT-04:00" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMaxCharacterLimit()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:14 GMT-04:00" name="testMaxCharacterLimit" finished-at="2025-09-19T01:22:15 GMT-04:00" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxCharacterLimit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:15 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:22:15 GMT-04:00" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:15 GMT-04:00" name="setUp" finished-at="2025-09-19T01:22:18 GMT-04:00" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAlignmentOfFields()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:18 GMT-04:00" name="verifyAlignmentOfFields" finished-at="2025-09-19T01:22:18 GMT-04:00" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlignmentOfFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:18 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:22:18 GMT-04:00" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:18 GMT-04:00" name="setUp" finished-at="2025-09-19T01:22:21 GMT-04:00" duration-ms="2735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUnicodeAndEmojisInAddressField()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:21 GMT-04:00" name="verifyUnicodeAndEmojisInAddressField" finished-at="2025-09-19T01:22:22 GMT-04:00" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnicodeAndEmojisInAddressField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:22 GMT-04:00" name="tearDown" finished-at="2025-09-19T01:22:23 GMT-04:00" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:tests.ContactUIValidationTests@79079097]" started-at="2025-09-19T01:22:23 GMT-04:00" name="tearDownExtentReports" finished-at="2025-09-19T01:22:23 GMT-04:00" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentReports -->
+      </class> <!-- tests.ContactUIValidationTests -->
+    </test> <!-- ContactUIValidationTests -->
+  </suite> <!-- Project1TestSuite -->
+</testng-results>

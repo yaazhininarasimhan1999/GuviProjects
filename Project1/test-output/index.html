@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Project1TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">Project1TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Project1TestSuite" class="navigator-link ">
+                    <span>C:\Users\yaazh\eclipse-workspace\Project1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Project1TestSuite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Project1TestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Project1TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Project1TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Project1TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Project1TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 1 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Project1TestSuite" class="hide-methods failed suite-Project1TestSuite"> (hide)</a> <!-- hide-methods failed suite-Project1TestSuite -->
+                      <a href="#" panel-name="suite-Project1TestSuite" class="show-methods failed suite-Project1TestSuite"> (show)</a> <!-- show-methods failed suite-Project1TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-Project1TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.SessionTests" class="method navigator-link" hash-for-method="verifyCannotAccessContactListAfterLogout">verifyCannotAccessContactListAfterLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Project1TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Project1TestSuite" class="hide-methods passed suite-Project1TestSuite"> (hide)</a> <!-- hide-methods passed suite-Project1TestSuite -->
+                      <a href="#" panel-name="suite-Project1TestSuite" class="show-methods passed suite-Project1TestSuite"> (show)</a> <!-- show-methods passed suite-Project1TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-Project1TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.ContactUIValidationTests" class="method navigator-link" hash-for-method="testMaxCharacterLimit">testMaxCharacterLimit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyAddContact">verifyAddContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyAddContactWithMissingRequiredFields">verifyAddContactWithMissingRequiredFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyAddingDuplicateContactDetails">verifyAddingDuplicateContactDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.ContactUIValidationTests" class="method navigator-link" hash-for-method="verifyAlignmentOfFields">verifyAlignmentOfFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyCancellingEdit">verifyCancellingEdit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyDeleteContact">verifyDeleteContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyEditContact">verifyEditContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyEditValidation">verifyEditValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.SignUpTests" class="method navigator-link" hash-for-method="verifyEmptyFields">verifyEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.LoginTests" class="method navigator-link" hash-for-method="verifyEmptyFields">verifyEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.SignUpTests" class="method navigator-link" hash-for-method="verifyExistingEmail">verifyExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyFormResetsAfterContactAdded">verifyFormResetsAfterContactAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.SignUpTests" class="method navigator-link" hash-for-method="verifyInvalidEmailFormat">verifyInvalidEmailFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.LoginTests" class="method navigator-link" hash-for-method="verifyInvalidEmailFormat">verifyInvalidEmailFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.LoginTests" class="method navigator-link" hash-for-method="verifyInvalidPassword">verifyInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.SessionTests" class="method navigator-link" hash-for-method="verifyLoginRequiredForContactList">verifyLoginRequiredForContactList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.SessionTests" class="method navigator-link" hash-for-method="verifyLoginStateOnRefresh">verifyLoginStateOnRefresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.SessionTests" class="method navigator-link" hash-for-method="verifyLogout">verifyLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.AddEdidDeleteContactTests" class="method navigator-link" hash-for-method="verifyOnlyNumericInputInPhoneField">verifyOnlyNumericInputInPhoneField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.ContactUIValidationTests" class="method navigator-link" hash-for-method="verifyUnicodeAndEmojisInAddressField">verifyUnicodeAndEmojisInAddressField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.LoginTests" class="method navigator-link" hash-for-method="verifyValidLogin">verifyValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Project1TestSuite" title="tests.SignUpTests" class="method navigator-link" hash-for-method="verifyValidSignUp">verifyValidSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Project1TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Project1TestSuite" class="panel Project1TestSuite">
+          <div class="suite-Project1TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SessionTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCannotAccessContactListAfterLogout">
+                  </a> <!-- verifyCannotAccessContactListAfterLogout -->
+                  <span class="method-name">verifyCannotAccessContactListAfterLogout</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()=&apos;Log In:&apos;] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50776/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0070e558768a12e2a3aa4c7d7c65aa25
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.ContactListPage.isLoginHeaderPresent(ContactListPage.java:74)
+	at tests.SessionTests.verifyCannotAccessContactListAfterLogout(SessionTests.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project1TestSuite-class-failed -->
+          <div class="suite-Project1TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyFields">
+                  </a> <!-- verifyEmptyFields -->
+                  <span class="method-name">verifyEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmailFormat">
+                  </a> <!-- verifyInvalidEmailFormat -->
+                  <span class="method-name">verifyInvalidEmailFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidPassword">
+                  </a> <!-- verifyInvalidPassword -->
+                  <span class="method-name">verifyInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidLogin">
+                  </a> <!-- verifyValidLogin -->
+                  <span class="method-name">verifyValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project1TestSuite-class-passed -->
+          <div class="suite-Project1TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SessionTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginRequiredForContactList">
+                  </a> <!-- verifyLoginRequiredForContactList -->
+                  <span class="method-name">verifyLoginRequiredForContactList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginStateOnRefresh">
+                  </a> <!-- verifyLoginStateOnRefresh -->
+                  <span class="method-name">verifyLoginStateOnRefresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout">
+                  </a> <!-- verifyLogout -->
+                  <span class="method-name">verifyLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project1TestSuite-class-passed -->
+          <div class="suite-Project1TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SignUpTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyFields">
+                  </a> <!-- verifyEmptyFields -->
+                  <span class="method-name">verifyEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyExistingEmail">
+                  </a> <!-- verifyExistingEmail -->
+                  <span class="method-name">verifyExistingEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmailFormat">
+                  </a> <!-- verifyInvalidEmailFormat -->
+                  <span class="method-name">verifyInvalidEmailFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidSignUp">
+                  </a> <!-- verifyValidSignUp -->
+                  <span class="method-name">verifyValidSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project1TestSuite-class-passed -->
+          <div class="suite-Project1TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ContactUIValidationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMaxCharacterLimit">
+                  </a> <!-- testMaxCharacterLimit -->
+                  <span class="method-name">testMaxCharacterLimit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlignmentOfFields">
+                  </a> <!-- verifyAlignmentOfFields -->
+                  <span class="method-name">verifyAlignmentOfFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnicodeAndEmojisInAddressField">
+                  </a> <!-- verifyUnicodeAndEmojisInAddressField -->
+                  <span class="method-name">verifyUnicodeAndEmojisInAddressField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project1TestSuite-class-passed -->
+          <div class="suite-Project1TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddEdidDeleteContactTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddContact">
+                  </a> <!-- verifyAddContact -->
+                  <span class="method-name">verifyAddContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddContactWithMissingRequiredFields">
+                  </a> <!-- verifyAddContactWithMissingRequiredFields -->
+                  <span class="method-name">verifyAddContactWithMissingRequiredFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddingDuplicateContactDetails">
+                  </a> <!-- verifyAddingDuplicateContactDetails -->
+                  <span class="method-name">verifyAddingDuplicateContactDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCancellingEdit">
+                  </a> <!-- verifyCancellingEdit -->
+                  <span class="method-name">verifyCancellingEdit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteContact">
+                  </a> <!-- verifyDeleteContact -->
+                  <span class="method-name">verifyDeleteContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditContact">
+                  </a> <!-- verifyEditContact -->
+                  <span class="method-name">verifyEditContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditValidation">
+                  </a> <!-- verifyEditValidation -->
+                  <span class="method-name">verifyEditValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFormResetsAfterContactAdded">
+                  </a> <!-- verifyFormResetsAfterContactAdded -->
+                  <span class="method-name">verifyFormResetsAfterContactAdded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOnlyNumericInputInPhoneField">
+                  </a> <!-- verifyOnlyNumericInputInPhoneField -->
+                  <span class="method-name">verifyOnlyNumericInputInPhoneField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project1TestSuite-class-passed -->
+        </div> <!-- panel Project1TestSuite -->
+        <div panel-name="test-xml-Project1TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\yaazh\eclipse-workspace\Project1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Project1TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignUpTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SignUpTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUpTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SessionTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SessionTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SessionTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddEditDeleteContactTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AddEdidDeleteContactTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddEditDeleteContactTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ContactUIValidationTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ContactUIValidationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ContactUIValidationTests --&gt;
+&lt;/suite&gt; &lt;!-- Project1TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Project1TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Project1TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignUpTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SessionTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AddEditDeleteContactTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ContactUIValidationTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Project1TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Project1TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Project1TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Project1TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Project1TestSuite');
+function tableData_Project1TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCannotAccessContactListAfterLogout')
+data.setCell(0, 2, 'tests.SessionTests')
+data.setCell(0, 3, 6531);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyDeleteContact')
+data.setCell(1, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(1, 3, 3112);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAddingDuplicateContactDetails')
+data.setCell(2, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(2, 3, 2143);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAddContact')
+data.setCell(3, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(3, 3, 2013);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCancellingEdit')
+data.setCell(4, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(4, 3, 1997);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyFormResetsAfterContactAdded')
+data.setCell(5, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(5, 3, 1954);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyAddContactWithMissingRequiredFields')
+data.setCell(6, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(6, 3, 1843);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLogout')
+data.setCell(7, 2, 'tests.SessionTests')
+data.setCell(7, 3, 1834);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyEditContact')
+data.setCell(8, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(8, 3, 1816);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyExistingEmail')
+data.setCell(9, 2, 'tests.SignUpTests')
+data.setCell(9, 3, 1557);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyOnlyNumericInputInPhoneField')
+data.setCell(10, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(10, 3, 1461);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyInvalidEmailFormat')
+data.setCell(11, 2, 'tests.SignUpTests')
+data.setCell(11, 3, 1366);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyEditValidation')
+data.setCell(12, 2, 'tests.AddEdidDeleteContactTests')
+data.setCell(12, 3, 1286);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyUnicodeAndEmojisInAddressField')
+data.setCell(13, 2, 'tests.ContactUIValidationTests')
+data.setCell(13, 3, 1246);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLoginStateOnRefresh')
+data.setCell(14, 2, 'tests.SessionTests')
+data.setCell(14, 3, 1157);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testMaxCharacterLimit')
+data.setCell(15, 2, 'tests.ContactUIValidationTests')
+data.setCell(15, 3, 1080);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyValidLogin')
+data.setCell(16, 2, 'tests.LoginTests')
+data.setCell(16, 3, 1078);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyInvalidEmailFormat')
+data.setCell(17, 2, 'tests.LoginTests')
+data.setCell(17, 3, 1057);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyInvalidPassword')
+data.setCell(18, 2, 'tests.LoginTests')
+data.setCell(18, 3, 1040);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyValidSignUp')
+data.setCell(19, 2, 'tests.SignUpTests')
+data.setCell(19, 3, 787);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyEmptyFields')
+data.setCell(20, 2, 'tests.LoginTests')
+data.setCell(20, 3, 690);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyAlignmentOfFields')
+data.setCell(21, 2, 'tests.ContactUIValidationTests')
+data.setCell(21, 3, 522);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyEmptyFields')
+data.setCell(22, 2, 'tests.SignUpTests')
+data.setCell(22, 3, 493);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyLoginRequiredForContactList')
+data.setCell(23, 2, 'tests.SessionTests')
+data.setCell(23, 3, 301);
+window.suiteTableData['Project1TestSuite']= { tableData: data, tableDiv: 'times-div-Project1TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-Project1TestSuite">
+              </div> <!-- times-div-Project1TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Project1TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Project1TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Project1TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Project1TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUIValidationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupExtentReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SignUpTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyFields</span>
+                <span class="method-start">3312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyExistingEmail</span>
+                <span class="method-start">5764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmailFormat</span>
+                <span class="method-start">9287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidSignUp</span>
+                <span class="method-start">12626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13415 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14108 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyFields</span>
+                <span class="method-start">15755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmailFormat</span>
+                <span class="method-start">18367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidPassword</span>
+                <span class="method-start">21349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidLogin</span>
+                <span class="method-start">24354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25434 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SessionTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCannotAccessContactListAfterLogout</span>
+                <span class="method-start">27407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginRequiredForContactList</span>
+                <span class="method-start">36752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37055 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginStateOnRefresh</span>
+                <span class="method-start">44257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout</span>
+                <span class="method-start">47315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49150 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddEdidDeleteContactTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddContact</span>
+                <span class="method-start">52252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddContactWithMissingRequiredFields</span>
+                <span class="method-start">57323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">59422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddingDuplicateContactDetails</span>
+                <span class="method-start">62225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCancellingEdit</span>
+                <span class="method-start">67396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteContact</span>
+                <span class="method-start">72431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">75802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEditContact</span>
+                <span class="method-start">78523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">80607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEditValidation</span>
+                <span class="method-start">83329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">84858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFormResetsAfterContactAdded</span>
+                <span class="method-start">87561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOnlyNumericInputInPhoneField</span>
+                <span class="method-start">92507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93968 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUIValidationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">94253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMaxCharacterLimit</span>
+                <span class="method-start">97265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">98346 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">98583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAlignmentOfFields</span>
+                <span class="method-start">101247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">102024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnicodeAndEmojisInAddressField</span>
+                <span class="method-start">104759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownExtentReports</span>
+                <span class="method-start">106342 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
