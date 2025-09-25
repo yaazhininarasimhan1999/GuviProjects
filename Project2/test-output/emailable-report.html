@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Demoblaze Automation Suite</th></tr>
+<tr><td><a href="#t0">SignUp Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,845</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Navigation Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,210</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Cart Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">82,781</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Login Tests</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22,987</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Order Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">20,992</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">UI Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">52,023</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">20</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">213,838</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Demoblaze Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SignUp Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.SignUpTests</td><td><a href="#m0">signUpWithEmptyFields</a></td><td rowspan="1">1758723751515</td><td rowspan="1">1412</td></tr><tr class="passedeven"><td><a href="#m1">signUpWithExistingUsername</a></td><td rowspan="1">1758723755241</td><td rowspan="1">2087</td></tr><tr class="passedeven"><td><a href="#m2">signUpWithUniqueCredentials</a></td><td rowspan="1">1758723759836</td><td rowspan="1">1766</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Navigation Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.ProductNavigationTests</td><td><a href="#m3">browseCategories</a></td><td rowspan="1">1758723765681</td><td rowspan="1">690</td></tr><tr><th colspan="4">Navigation Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.ProductNavigationTests</td><td><a href="#m4">navigateUsingNavbarLinks</a></td><td rowspan="1">1758723770267</td><td rowspan="1">2365</td></tr><tr class="passedeven"><td><a href="#m5">verifyHomeNavigation</a></td><td rowspan="1">1758723776447</td><td rowspan="1">1254</td></tr><tr class="passedeven"><td><a href="#m6">viewProductDetails</a></td><td rowspan="1">1758723781128</td><td rowspan="1">2106</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Cart Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">tests.CartTests</td><td><a href="#m7">RemoveProductFromCart</a></td><td rowspan="1">1758723795929</td><td rowspan="1">30556</td></tr><tr class="failedeven"><td><a href="#m8">viewCartwithAddedproducts</a></td><td rowspan="1">1758723835465</td><td rowspan="1">30596</td></tr><tr><th colspan="4">Cart Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.CartTests</td><td><a href="#m9">AddMultipleProductsToCart</a></td><td rowspan="1">1758723786998</td><td rowspan="1">5399</td></tr><tr class="passedeven"><td><a href="#m10">verifyAddProductToCart</a></td><td rowspan="1">1758723829961</td><td rowspan="1">2048</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">tests.LoginTests</td><td><a href="#m11">PasswordFieldMasking</a></td><td rowspan="1">1758723868433</td><td rowspan="1">1000</td></tr><tr class="passedeven"><td><a href="#m12">loginWithEmptyFields</a></td><td rowspan="1">1758723871558</td><td rowspan="1">1001</td></tr><tr class="passedeven"><td><a href="#m13">loginWithIncorrectPassword</a></td><td rowspan="1">1758723874667</td><td rowspan="1">1775</td></tr><tr class="passedeven"><td><a href="#m14">loginWithInvalidEmailFormat</a></td><td rowspan="1">1758723878625</td><td rowspan="1">1844</td></tr><tr class="passedeven"><td><a href="#m15">loginWithValidCredentials</a></td><td rowspan="1">1758723882279</td><td rowspan="1">2135</td></tr><tr class="passedeven"><td><a href="#m16">verifyLogout</a></td><td rowspan="1">1758723886380</td><td rowspan="1">2660</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Order Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.OrderTests</td><td><a href="#m17">placeOrderWithEmptyForm</a></td><td rowspan="1">1758723892881</td><td rowspan="1">3107</td></tr><tr class="passedeven"><td><a href="#m18">placeOrderWithValidDetails</a></td><td rowspan="1">1758723899353</td><td rowspan="1">3667</td></tr><tr class="passedeven"><td><a href="#m19">verifyOrderConfirmationPopup</a></td><td rowspan="1">1758723906414</td><td rowspan="1">3780</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">UI Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.UITests</td><td><a href="#m20">verifyAlertAndPopupStyling</a></td><td rowspan="1">1758723919526</td><td rowspan="1">32700</td></tr><tr><th colspan="4">UI Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.UITests</td><td><a href="#m21">verifyActionButtonsVisibility</a></td><td rowspan="1">1758723912285</td><td rowspan="1">5102</td></tr><tr class="passedeven"><td><a href="#m22">verifyFontConsistency</a></td><td rowspan="1">1758723954508</td><td rowspan="1">1839</td></tr><tr class="passedeven"><td><a href="#m23">verifyProductTilesAlignment</a></td><td rowspan="1">1758723958542</td><td rowspan="1">3666</td></tr></tbody>
+</table>
+<h2>SignUp Tests</h2><h3 id="m0">tests.SignUpTests#signUpWithEmptyFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.SignUpTests#signUpWithExistingUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.SignUpTests#signUpWithUniqueCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Navigation Tests</h2><h3 id="m3">tests.ProductNavigationTests#browseCategories</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a82fdd1c60286915254c57b2de77664, clickElement {id=f.BE9224988951CCCDE1ED4CBE78C91589.d.05DF55CABFC150B172A6B3A34E5D24F1.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57554/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1a82fdd1c60286915254c57b2de77664)] -&gt; xpath: //a[text()=&apos;Laptops&apos;]]
+Session ID: 1a82fdd1c60286915254c57b2de77664
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.ProductPage.browseCategory(ProductPage.java:21)
+	at tests.ProductNavigationTests.browseCategories(ProductNavigationTests.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.ProductNavigationTests#navigateUsingNavbarLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.ProductNavigationTests#verifyHomeNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.ProductNavigationTests#viewProductDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Cart Tests</h2><h3 id="m7">tests.CartTests#RemoveProductFromCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h2[@class=&apos;name&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57678/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f83f96e15df874b014be97f1f4913a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.CartPage.SelectProduct(CartPage.java:65)
+	at tests.CartTests.RemoveProductFromCart(CartTests.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.CartTests#viewCartwithAddedproducts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h2[@class=&apos;name&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57740/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d34094b3e0ae79764eb6ce711fed6df
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.CartPage.SelectProduct(CartPage.java:65)
+	at tests.CartTests.viewCartwithAddedproducts(CartTests.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.CartTests#AddMultipleProductsToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.CartTests#verifyAddProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Tests</h2><h3 id="m11">tests.LoginTests#PasswordFieldMasking</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.LoginTests#loginWithEmptyFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.LoginTests#loginWithIncorrectPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.LoginTests#loginWithInvalidEmailFormat</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.LoginTests#loginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.LoginTests#verifyLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Order Tests</h2><h3 id="m17">tests.OrderTests#placeOrderWithEmptyForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.OrderTests#placeOrderWithValidDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.OrderTests#verifyOrderConfirmationPopup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>UI Tests</h2><h3 id="m20">tests.UITests#verifyAlertAndPopupStyling</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@onclick=&apos;addToCart(1)&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58027/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e05c8fa45e6708f43a69099db1c8329d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.CartPage.SelectProduct(CartPage.java:67)
+	at tests.UITests.verifyAlertAndPopupStyling(UITests.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">tests.UITests#verifyActionButtonsVisibility</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">tests.UITests#verifyFontConsistency</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">tests.UITests#verifyProductTilesAlignment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

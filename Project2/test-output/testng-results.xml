@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="20" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-24T10:22:27 GMT-04:00" name="Demoblaze Automation Suite" finished-at="2025-09-24T10:26:02 GMT-04:00" duration-ms="214505">
+    <groups>
+    </groups>
+    <test started-at="2025-09-24T10:22:27 GMT-04:00" name="SignUp Tests" finished-at="2025-09-24T10:22:41 GMT-04:00" duration-ms="13845">
+      <class name="tests.SignUpTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:28 GMT-04:00" name="setUp" finished-at="2025-09-24T10:22:31 GMT-04:00" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpWithEmptyFields()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:31 GMT-04:00" name="signUpWithEmptyFields" finished-at="2025-09-24T10:22:32 GMT-04:00" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:32 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:22:33 GMT-04:00" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:33 GMT-04:00" name="setUp" finished-at="2025-09-24T10:22:35 GMT-04:00" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpWithExistingUsername()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:35 GMT-04:00" name="signUpWithExistingUsername" finished-at="2025-09-24T10:22:37 GMT-04:00" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpWithExistingUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:37 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:22:37 GMT-04:00" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:37 GMT-04:00" name="setUp" finished-at="2025-09-24T10:22:39 GMT-04:00" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpWithUniqueCredentials()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:39 GMT-04:00" name="signUpWithUniqueCredentials" finished-at="2025-09-24T10:22:41 GMT-04:00" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpWithUniqueCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTests@179ece50]" started-at="2025-09-24T10:22:41 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:22:41 GMT-04:00" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignUpTests -->
+    </test> <!-- SignUp Tests -->
+    <test started-at="2025-09-24T10:22:42 GMT-04:00" name="Navigation Tests" finished-at="2025-09-24T10:23:03 GMT-04:00" duration-ms="21210">
+      <class name="tests.ProductNavigationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:42 GMT-04:00" name="setUp" finished-at="2025-09-24T10:22:45 GMT-04:00" duration-ms="3385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="browseCategories()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:45 GMT-04:00" name="browseCategories" finished-at="2025-09-24T10:22:46 GMT-04:00" duration-ms="690" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a82fdd1c60286915254c57b2de77664, clickElement {id=f.BE9224988951CCCDE1ED4CBE78C91589.d.05DF55CABFC150B172A6B3A34E5D24F1.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57554/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1a82fdd1c60286915254c57b2de77664)] -> xpath: //a[text()='Laptops']]
+Session ID: 1a82fdd1c60286915254c57b2de77664]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a82fdd1c60286915254c57b2de77664, clickElement {id=f.BE9224988951CCCDE1ED4CBE78C91589.d.05DF55CABFC150B172A6B3A34E5D24F1.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57554/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1a82fdd1c60286915254c57b2de77664)] -> xpath: //a[text()='Laptops']]
+Session ID: 1a82fdd1c60286915254c57b2de77664
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.ProductPage.browseCategory(ProductPage.java:21)
+at tests.ProductNavigationTests.browseCategories(ProductNavigationTests.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseCategories -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:46 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:22:46 GMT-04:00" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:46 GMT-04:00" name="setUp" finished-at="2025-09-24T10:22:50 GMT-04:00" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateUsingNavbarLinks()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:50 GMT-04:00" name="navigateUsingNavbarLinks" finished-at="2025-09-24T10:22:52 GMT-04:00" duration-ms="2365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateUsingNavbarLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:52 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:22:52 GMT-04:00" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:52 GMT-04:00" name="setUp" finished-at="2025-09-24T10:22:56 GMT-04:00" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomeNavigation()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:56 GMT-04:00" name="verifyHomeNavigation" finished-at="2025-09-24T10:22:57 GMT-04:00" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:57 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:22:57 GMT-04:00" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:22:57 GMT-04:00" name="setUp" finished-at="2025-09-24T10:23:01 GMT-04:00" duration-ms="3210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewProductDetails()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:23:01 GMT-04:00" name="viewProductDetails" finished-at="2025-09-24T10:23:03 GMT-04:00" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProductDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductNavigationTests@13b6aecc]" started-at="2025-09-24T10:23:03 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:23:03 GMT-04:00" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductNavigationTests -->
+    </test> <!-- Navigation Tests -->
+    <test started-at="2025-09-24T10:23:03 GMT-04:00" name="Cart Tests" finished-at="2025-09-24T10:24:26 GMT-04:00" duration-ms="82781">
+      <class name="tests.CartTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:03 GMT-04:00" name="setUp" finished-at="2025-09-24T10:23:06 GMT-04:00" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddMultipleProductsToCart()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:06 GMT-04:00" name="AddMultipleProductsToCart" finished-at="2025-09-24T10:23:12 GMT-04:00" duration-ms="5399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMultipleProductsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:12 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:23:12 GMT-04:00" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:12 GMT-04:00" name="setUp" finished-at="2025-09-24T10:23:15 GMT-04:00" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RemoveProductFromCart()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:15 GMT-04:00" name="RemoveProductFromCart" finished-at="2025-09-24T10:23:46 GMT-04:00" duration-ms="30556" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h2[@class='name'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57678/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f83f96e15df874b014be97f1f4913a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h2[@class='name'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57678/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f83f96e15df874b014be97f1f4913a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.CartPage.SelectProduct(CartPage.java:65)
+at tests.CartTests.RemoveProductFromCart(CartTests.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:46 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:23:46 GMT-04:00" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:46 GMT-04:00" name="setUp" finished-at="2025-09-24T10:23:49 GMT-04:00" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddProductToCart()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:49 GMT-04:00" name="verifyAddProductToCart" finished-at="2025-09-24T10:23:52 GMT-04:00" duration-ms="2048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:52 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:23:52 GMT-04:00" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:52 GMT-04:00" name="setUp" finished-at="2025-09-24T10:23:55 GMT-04:00" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewCartwithAddedproducts()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:23:55 GMT-04:00" name="viewCartwithAddedproducts" finished-at="2025-09-24T10:24:26 GMT-04:00" duration-ms="30596" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h2[@class='name'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57740/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d34094b3e0ae79764eb6ce711fed6df]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h2[@class='name'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57740/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d34094b3e0ae79764eb6ce711fed6df
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.CartPage.SelectProduct(CartPage.java:65)
+at tests.CartTests.viewCartwithAddedproducts(CartTests.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartwithAddedproducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTests@7530ad9c]" started-at="2025-09-24T10:24:26 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:24:26 GMT-04:00" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTests -->
+    </test> <!-- Cart Tests -->
+    <test started-at="2025-09-24T10:24:26 GMT-04:00" name="Login Tests" finished-at="2025-09-24T10:24:49 GMT-04:00" duration-ms="22987">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:26 GMT-04:00" name="setUp" finished-at="2025-09-24T10:24:28 GMT-04:00" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PasswordFieldMasking()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:28 GMT-04:00" name="PasswordFieldMasking" finished-at="2025-09-24T10:24:29 GMT-04:00" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordFieldMasking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:29 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:24:29 GMT-04:00" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:29 GMT-04:00" name="setUp" finished-at="2025-09-24T10:24:31 GMT-04:00" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithEmptyFields()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:31 GMT-04:00" name="loginWithEmptyFields" finished-at="2025-09-24T10:24:32 GMT-04:00" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:32 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:24:32 GMT-04:00" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:32 GMT-04:00" name="setUp" finished-at="2025-09-24T10:24:34 GMT-04:00" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithIncorrectPassword()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:34 GMT-04:00" name="loginWithIncorrectPassword" finished-at="2025-09-24T10:24:36 GMT-04:00" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:36 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:24:36 GMT-04:00" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:36 GMT-04:00" name="setUp" finished-at="2025-09-24T10:24:38 GMT-04:00" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidEmailFormat()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:38 GMT-04:00" name="loginWithInvalidEmailFormat" finished-at="2025-09-24T10:24:40 GMT-04:00" duration-ms="1844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:40 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:24:40 GMT-04:00" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:40 GMT-04:00" name="setUp" finished-at="2025-09-24T10:24:42 GMT-04:00" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:42 GMT-04:00" name="loginWithValidCredentials" finished-at="2025-09-24T10:24:44 GMT-04:00" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:44 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:24:44 GMT-04:00" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:44 GMT-04:00" name="setUp" finished-at="2025-09-24T10:24:46 GMT-04:00" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogout()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:46 GMT-04:00" name="verifyLogout" finished-at="2025-09-24T10:24:49 GMT-04:00" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@6a2f6f80]" started-at="2025-09-24T10:24:49 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:24:49 GMT-04:00" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Login Tests -->
+    <test started-at="2025-09-24T10:24:49 GMT-04:00" name="Order Tests" finished-at="2025-09-24T10:25:10 GMT-04:00" duration-ms="20992">
+      <class name="tests.OrderTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:24:49 GMT-04:00" name="setUp" finished-at="2025-09-24T10:24:52 GMT-04:00" duration-ms="3435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrderWithEmptyForm()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:24:52 GMT-04:00" name="placeOrderWithEmptyForm" finished-at="2025-09-24T10:24:55 GMT-04:00" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithEmptyForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:24:55 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:24:56 GMT-04:00" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:24:56 GMT-04:00" name="setUp" finished-at="2025-09-24T10:24:59 GMT-04:00" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrderWithValidDetails()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:24:59 GMT-04:00" name="placeOrderWithValidDetails" finished-at="2025-09-24T10:25:03 GMT-04:00" duration-ms="3667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:25:03 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:25:03 GMT-04:00" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:25:03 GMT-04:00" name="setUp" finished-at="2025-09-24T10:25:06 GMT-04:00" duration-ms="3150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrderConfirmationPopup()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:25:06 GMT-04:00" name="verifyOrderConfirmationPopup" finished-at="2025-09-24T10:25:10 GMT-04:00" duration-ms="3780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderConfirmationPopup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrderTests@f79e]" started-at="2025-09-24T10:25:10 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:25:10 GMT-04:00" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OrderTests -->
+    </test> <!-- Order Tests -->
+    <test started-at="2025-09-24T10:25:10 GMT-04:00" name="UI Tests" finished-at="2025-09-24T10:26:02 GMT-04:00" duration-ms="52023">
+      <class name="tests.UITests">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:22:27 GMT-04:00" name="setupExtentReports" finished-at="2025-09-24T10:22:27 GMT-04:00" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:10 GMT-04:00" name="setUp" finished-at="2025-09-24T10:25:12 GMT-04:00" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyActionButtonsVisibility()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:12 GMT-04:00" name="verifyActionButtonsVisibility" finished-at="2025-09-24T10:25:17 GMT-04:00" duration-ms="5102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActionButtonsVisibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:17 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:25:17 GMT-04:00" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:17 GMT-04:00" name="setUp" finished-at="2025-09-24T10:25:19 GMT-04:00" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAlertAndPopupStyling()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:19 GMT-04:00" name="verifyAlertAndPopupStyling" finished-at="2025-09-24T10:25:52 GMT-04:00" duration-ms="32700" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[@onclick='addToCart(1)'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58027/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e05c8fa45e6708f43a69099db1c8329d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@onclick='addToCart(1)'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\yaazh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58027/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e05c8fa45e6708f43a69099db1c8329d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.CartPage.SelectProduct(CartPage.java:67)
+at tests.UITests.verifyAlertAndPopupStyling(UITests.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertAndPopupStyling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:52 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:25:52 GMT-04:00" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:52 GMT-04:00" name="setUp" finished-at="2025-09-24T10:25:54 GMT-04:00" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFontConsistency()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:54 GMT-04:00" name="verifyFontConsistency" finished-at="2025-09-24T10:25:56 GMT-04:00" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFontConsistency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:56 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:25:56 GMT-04:00" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:56 GMT-04:00" name="setUp" finished-at="2025-09-24T10:25:58 GMT-04:00" duration-ms="1950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductTilesAlignment()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:25:58 GMT-04:00" name="verifyProductTilesAlignment" finished-at="2025-09-24T10:26:02 GMT-04:00" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductTilesAlignment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:26:02 GMT-04:00" name="tearDown" finished-at="2025-09-24T10:26:02 GMT-04:00" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:tests.UITests@445b295b]" started-at="2025-09-24T10:26:02 GMT-04:00" name="tearDownExtentReports" finished-at="2025-09-24T10:26:02 GMT-04:00" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentReports -->
+      </class> <!-- tests.UITests -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- Demoblaze Automation Suite -->
+</testng-results>

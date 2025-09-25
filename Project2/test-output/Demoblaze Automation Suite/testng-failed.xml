@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demoblaze Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Navigation Tests(failed)">
+    <classes>
+      <class name="tests.ProductNavigationTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="browseCategories"/>
+        </methods>
+      </class> <!-- tests.ProductNavigationTests -->
+    </classes>
+  </test> <!-- Navigation Tests(failed) -->
+  <test thread-count="5" name="Cart Tests(failed)">
+    <classes>
+      <class name="tests.CartTests">
+        <methods>
+          <include name="RemoveProductFromCart"/>
+          <include name="viewCartwithAddedproducts"/>
+          <include name="setUp"/>
+          <include name="tearDownExtentReports"/>
+          <include name="tearDown"/>
+          <include name="setupExtentReports"/>
+        </methods>
+      </class> <!-- tests.CartTests -->
+    </classes>
+  </test> <!-- Cart Tests(failed) -->
+  <test thread-count="5" name="UI Tests(failed)">
+    <classes>
+      <class name="tests.UITests">
+        <methods>
+          <include name="verifyAlertAndPopupStyling"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tearDownExtentReports"/>
+          <include name="setupExtentReports"/>
+        </methods>
+      </class> <!-- tests.UITests -->
+    </classes>
+  </test> <!-- UI Tests(failed) -->
+</suite> <!-- Failed suite [Demoblaze Automation Suite] -->
